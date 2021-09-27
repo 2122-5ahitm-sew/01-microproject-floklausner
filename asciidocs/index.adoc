@@ -14,12 +14,11 @@ ifdef::backend-html5[]
 // print the toc here (not at the default position)
 //toc::[]
 
-== Description
+== Zooverwaltung
+=== Description
 The idea of this Project is to build a quarkus backend where you are able to manage Enclosures of Ani
 
-
 === CLD
-
 [plantuml, cld, png, align=left]
 ----
 include::plantuml/cld.puml[]

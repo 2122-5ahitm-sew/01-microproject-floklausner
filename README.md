@@ -1,4 +1,7 @@
-# 01-microproject-floklausner
-01-microproject-floklausner created by GitHub Classroom
+# Klausner Zooverwaltung
 
+## The idea of this project 
+
+
+## Class Diagramm
 ![image](asciidocs/images/cld.png)

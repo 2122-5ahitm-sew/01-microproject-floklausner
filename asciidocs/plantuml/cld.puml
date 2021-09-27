@@ -19,6 +19,7 @@ class Staff {
     - List<Enclosure> enclosure;
 }
 
+
 Animal "1" -- "*" Enclosure
 Enclosure "*" -- "1" Staff
 

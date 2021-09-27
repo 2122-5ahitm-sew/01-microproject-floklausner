@@ -1,0 +1,26 @@
+@startuml
+
+class Animal {
+    - String name;
+    - String species;
+    - int age;
+    - long animalId;
+    - Enclosure enclosure;
+}
+
+class Enclosure {
+    - long enclosureId;
+    - List<Animal> animals;
+}
+
+class Staff {
+    - String name;
+    - long staffId;
+    - List<Enclosure> enclosure;
+}
+
+
+Animal "1" -- "*" Enclosure
+Enclosure "*" -- "1" Staff
+
+@enduml
